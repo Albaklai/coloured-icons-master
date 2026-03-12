@@ -1,8 +1,3 @@
-# Coloured Icons
-
-SEO: https://coloured-icons.vercel.app (auto sitemap/robots, OG cards)
-
-Sample icons
 
 <img src="public/logos/art and music/spotify/spotify.svg" alt="Spotify Icon"  height="48"> <img src="public/logos/technology/react/react.svg" alt="React Icon"  height="48">
 <img src="public/logos/technology/vuejs/vuejs.svg" alt="Vue.js Icon"  height="48"> <img src="public/logos/technology/redis/redis.svg" alt="Redis Icon"  height="48"> <img src="public/logos/technology/firebase/firebase.svg" alt="Firebase Icon"  height="48"> <img src="public/logos/social media/instagram/instagram.svg" alt="Instagram Icon"  height="48"> <img src="public/logos/technology/python/python.svg" alt="Python Icon"  height="48"> <img src="public/logos/technology/javascript/javascript.svg" alt="JavaScript Icon"  height="48"> <img src="public/logos/technology/html/html.svg" alt="HTML5 Icon"  height="48"> <img src="public/logos/technology/css/css.svg" alt="CSS3 Icon"  height="48"> <img src="public/logos/technology/nodejs/nodejs.svg" alt="Node.js Icon"  height="48"> <img src="public/logos/technology/mongodb/mongodb.svg" alt="MongoDB Icon"  height="48"> <img src="public/logos/technology/postgresql/postgresql.svg" alt="PostgreSQL Icon"  height="48"> <img src="public/logos/technology/java/java.svg" alt="Java Icon"  height="48"> <img src="public/logos/technology/angular/angular.svg" alt="Angular Icon"  height="48"> <img src="public/logos/technology/nuxtjs/nuxtjs.svg" alt="Nuxtjs Icon"  height="48"> <img src="public/logos/technology/solana/solana.svg" alt="Solana Icon"  height="48"> <img src="public/logos/technology/docker/docker.webp" alt="Docker Icon" height="48"> <img src="public/logos/technology/kubernetes/kubernetes.svg" alt="Kubernetes Icon"  height="48"> <img src="public/logos/social media/mastodon/mastodon.svg" alt="Mastodon Icon"  height="48">
@@ -195,11 +190,3 @@ export default {
   reactCompiler: true, // set to false to disable if you hit any issues
 }
 ```
-
-## License
-
-The Coloured Icons Library is licensed under the MIT License. Please review the license file for more details.
-
-## Contact 👋🏻
-
-[Visit my personal website](https://dheereshag.vercel.app)
