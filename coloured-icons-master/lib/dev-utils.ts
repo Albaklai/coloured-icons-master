@@ -6,10 +6,7 @@ import { Icon } from "@/interfaces";
  * @param limit - Number of icons to show per category (default: 5)
  * @returns Limited array of icons if in development mode, otherwise original array
  */
-const limitIconsInDev = (icons: Icon[], limit: number = 5): Icon[] => {
-  return icons;
-
-
+const limitIconsInDev = (icons: Icon[], limit: number = 10): Icon[] => {
   // Group icons by category
   const iconsByCategory: { [key: string]: Icon[] } = {};
 
