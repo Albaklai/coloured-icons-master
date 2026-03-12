@@ -1,0 +1,56 @@
+{
+  "name": "coloured-icons",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/listFolders.js && next dev",
+    "build": "node scripts/listFolders.js && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "minify:logos": "cleancss -o app/logos.min.css app/logos.css",
+    "minify:ci": "cleancss -o app/ci.min.css app/ci.css",
+    "minify": "pnpm run minify:logos && pnpm run minify:ci"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "@icons-pack/react-simple-icons": "^13.11.2",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-navigation-menu": "^1.2.14",
+    "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "@radix-ui/react-use-controllable-state": "^1.2.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cmdk": "1.1.1",
+    "lucide-react": "^0.574.0",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwind-merge": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.3",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "babel-plugin-react-compiler": "19.1.0-rc.2",
+    "clean-css-cli": "^5.6.3",
+    "eslint": "^10.0.0",
+    "eslint-config-next": "16.1.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
+  },
+  "description": "coloured-icons in development",
+  "main": "next.config.js",
+  "keywords": [
+    "coloured"
+  ],
+  "author": "Dheeresh Agarwal",
+  "license": "ISC"
+}
