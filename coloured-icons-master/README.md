@@ -175,7 +175,14 @@ Once the tag is pushed, the published CSS can be referenced by projects using th
 
 During development, run the following scripts:
 
-- `pnpm run dev`: Generates automated files. This script is also executed during the push process by GitHub Actions.
+- `pnpm run dev`: Generates automated files and starts a local Next.js server on `http://localhost:3000` (or the next free port).
+  - After cloning the repo, simply `cd` into the project and run this command to preview the site in your browser.  
+  - **Note:** this address only works on your own machine; it is **not accessible publicly**. If you want others to view the site they'll need to deploy it (e.g. on Vercel) or share your machine via a tunneling service such as ngrok.
+
+- `pnpm run build`: Builds the production site.
+- `pnpm run start`: Runs the built site in production mode.
+- `pnpm run lint`: Lints the codebase.
+- `pnpm run minify`: Produces the minified stylesheet used on the CDN.
 
 ## React Compiler
 
