@@ -2,10 +2,39 @@
 
 <html>
 <head>
-  <title>Coloured Icons</title>
+<title>Coloured Icons</title>
+<style>
+body{
+font-family:Arial;
+background:#f5f5f5;
+text-align:center;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,120px);
+gap:20px;
+justify-content:center;
+margin-top:40px;
+}
+.grid img{
+width:100px;
+height:100px;
+}
+</style>
 </head>
+
 <body>
-  <h1>Coloured Icons</h1>
-  <p>Your icons repository is deployed successfully 🎉</p>
+
+<h1>Coloured Icons</h1>
+<p>Icon gallery</p>
+
+<div class="grid">
+<img src="icons/github.png">
+<img src="icons/javascript.png">
+<img src="icons/python.png">
+<img src="icons/docker.png">
+<img src="icons/nodejs.png">
+</div>
+
 </body>
 </html>
